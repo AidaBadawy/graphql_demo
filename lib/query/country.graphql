@@ -1,0 +1,18 @@
+query getAllCountries{
+    countries{
+        name
+        capital
+    }
+}
+
+query getPSCountry{
+    country(code: "PS"){
+        name: name
+    }
+}
+
+query getTNCountry{
+    country(code: "TN"){
+        name: name
+    }
+}
